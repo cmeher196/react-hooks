@@ -4,6 +4,7 @@ import CountHook from './Components/CountHook';
 import HookCounterTwo from './Components/HookCounterTwo';
 import HookCounterThree from './Components/HookCounterThree';
 import HookCounterArray from './Components/HookCounterArray';
+import HookCounterOne from './Components/useEffect/HookCounterOne';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <CountHook /> */}
       {/* <HookCounterTwo /> */}
       {/* <HookCounterThree/> */}
-      <HookCounterArray />
+      {/* <HookCounterArray /> */}
+      <HookCounterOne />
     </div>
   );
 }
